@@ -1,0 +1,113 @@
+# Compile of alu8bit.v was successful.
+# Compile of alu8bit.v failed with 1 errors.
+# Compile of alu8bit.v failed with 1 errors.
+# Compile of alu8bit.v was successful.
+# Compile of alu8bit_tb.v was successful.
+vsim -gui work.alu8bit_tb
+# vsim -gui work.alu8bit_tb 
+# Start time: 22:06:32 on Sep 08,2024
+# Loading work.alu8bit_tb
+# Loading work.alu8bit
+add wave -position insertpoint sim:/alu8bit_tb/uut/*
+run
+run
+run
+run
+force -freeze sim:/alu8bit_tb/uut/in1 10101010 0
+force -freeze sim:/alu8bit_tb/uut/in2 11001100 0
+run
+# Break key hit
+quit -sim
+# End time: 22:09:03 on Sep 08,2024, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 12
+vsim -gui work.alu8bit_tb
+# vsim -gui work.alu8bit_tb 
+# Start time: 22:09:10 on Sep 08,2024
+# Loading work.alu8bit_tb
+# Loading work.alu8bit
+add wave -position insertpoint sim:/alu8bit_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:09:41 on Sep 08,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 1
+vsim -gui work.alu8bit_tb
+# vsim -gui work.alu8bit_tb 
+# Start time: 22:09:49 on Sep 08,2024
+# Loading work.alu8bit_tb
+# Loading work.alu8bit
+add wave -position insertpoint sim:/alu8bit_tb/*
+force -freeze sim:/alu8bit_tb/in1 10101010 0
+force -freeze sim:/alu8bit_tb/in2 11001100 0
+force -freeze sim:/alu8bit_tb/opcode 000 0
+run
+force -freeze sim:/alu8bit_tb/opcode 001 0
+run
+force -freeze sim:/alu8bit_tb/opcode 010 0
+run
+force -freeze sim:/alu8bit_tb/opcode 011 0
+run
+force -freeze sim:/alu8bit_tb/opcode 100 0
+run
+force -freeze sim:/alu8bit_tb/opcode 101 0
+run
+force -freeze sim:/alu8bit_tb/opcode 110 0
+run
+force -freeze sim:/alu8bit_tb/opcode 111 0
+run
+# Compile of alu8bit.v was successful.
+quit -sim
+# End time: 22:19:57 on Sep 08,2024, Elapsed time: 0:10:08
+# Errors: 0, Warnings: 2
+vsim -gui work.alu8bit_tb
+# vsim -gui work.alu8bit_tb 
+# Start time: 22:20:06 on Sep 08,2024
+# Loading work.alu8bit_tb
+# Loading work.alu8bit
+add wave -position insertpoint sim:/alu8bit_tb/*
+force -freeze sim:/alu8bit_tb/in1 10101010 0
+force -freeze sim:/alu8bit_tb/in2 11001100 0
+force -freeze sim:/alu8bit_tb/opcode 000 0
+run
+force -freeze sim:/alu8bit_tb/opcode 001 0
+run
+force -freeze sim:/alu8bit_tb/opcode 010 0
+run
+force -freeze sim:/alu8bit_tb/opcode 011 0
+run
+force -freeze sim:/alu8bit_tb/opcode 100 0
+run
+force -freeze sim:/alu8bit_tb/opcode 101 0
+run
+force -freeze sim:/alu8bit_tb/opcode 110 0
+run
+force -freeze sim:/alu8bit_tb/opcode 111 0
+run
